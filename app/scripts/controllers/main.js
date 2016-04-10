@@ -56,6 +56,7 @@ angular.module('bookSearchApp')
       maxResults: '25'
     }, function(response) {
        delete mv.searchResults.items;
+      console.log(response.items);
       bookData.setBookArray(response.items);
       mv.searchResults = bookData.getBookArray();
     });
