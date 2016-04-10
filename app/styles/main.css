@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,400italic,300);
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+html {
+  background: url(../images/homehero.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  background: url(../images/body-hero.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+/*body {*/
+  /*!*Image Credit: Books HD by Abhi Sharma, on Flickr*!*/
+  /*background: url(https://c1.staticflickr.com/9/8078/8314929977_4d7e817d68_h.jpg) no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+/*}*/
+
+  /*.navbar {*/
+    /*background: transparent;*/
+    /*background-color: transparent;*/
+    /*border-color: transparent;*/
+  /*}*/
+
+/*.navbar-brand,*/
+/*ul.nav a {*/
+  /*color: #fff !important;*/
+  /*font-size: 20px;*/
+/*}*/
+
+/*.navbar-brand:hover,*/
+/*ul.nav a:hover {*/
+  /*color: #9370DB !important;*/
+/*}*/
+
+/*.navbar li {*/
+  /*color: #000;*/
+/*}*/
+
+.search {
+  background: #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+  width: 65%;
+}
+
+.return-search {
+  background: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.form-group,
+button[type="submit"] {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.row {
+  background: #FFF;
+  padding: 2%;
+}
+
+.order-by-group {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.rating {
+  color: #0000FF;
+  font-weight: bold;
+}
+.media{
+  padding: 10px;
+  border-radius: 1px;
+  background-color: #E8E9E1;
+}
+img.media-object {
+  border: 2px solid darkslategrey;
+}
+
+.chatter.ng-scope {
+  background-color: azure;
+}
+.login-main.ng-scope {
+  background-color: azure;
+  padding: 45px;
+}
+.lister {
+  position: absolute;
+  top: 82px;
+  right: 0;
+  width: 244px;
+  background-color: azure;
+}
